@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShAni.</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <!-- header section -->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-infinity"></i>Sh<span>Ani</span></a>
+        <nav class="navbar zoomer">
+            <a href="index.html">home</a>
+            <a href="index.html #anime">anime</a>
+            <a href="index.html #action">action</a>
+            <a href="index.html #Kids">Kids</a>
+            <a href="index.html #family">family</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="from.html" class="fas fa-heart"></a>
+        </div>
+    </header>
+
+    <!-- Form -->
+    <div id="form-main">
+        <div id="form-div">
+            <form class="form" id="form1" action="datainc.php" method="post">
+                <table>
+                    <tr>
+                      
+                        <td>
+                            <input name="username" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" id="username" placeholder="Username" />
+                        </td>
+                    </tr>
+                    <tr>
+                      
+                        <td>
+                            <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email"/>
+                        </td>
+                    </tr>
+                    <tr>
+                      
+                        <td>
+                            <input name="password" type="password" class="validate[required,length[6,300]] feedback-input" id="password" placeholder="Password"/>
+                        </td>
+                    </tr>
+                    <tr>
+                      
+                        <td>
+                            <select name="age-range" id="age-range">
+                                <option value="1-17">Under 18</option>
+                                <option value="18-25">18 to 25</option>
+                                <option value="26-35">26 to 35</option>
+                                <option value="36-45">36 to 45</option>
+                                <option value="45+">Over 45</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="checkbox" name="terms" id="terms" required>
+                            <label for="terms"><span class="White"> I agree to the terms and conditions</span></label>
+                        </td>
+                    </tr>
+                </table>
+                
+                <div class="submit">
+                    <input type="submit" value="SEND" id="button-blue"/>
+                    <div class="ease"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- copyright -->
+    <footer>
+        <div class="copyright container"><style type="text/css">.copyright{position:absolute;display:inline-block; bottom: 0px;}
+          </style>
+            <a href="#" class="logo"><i class="fas fa-infinity"></i>ShAni</a>
+            <p>&#169; Shreyash. All rights reserved.</p>
+        </div>
+    </footer>
+    <p hidden>vpa8/06O5H8Dh91NGYkndrNYO+RZ2SMcvH3sJfnzTac=</p>
+
+</body>
+</html>
